@@ -35,12 +35,12 @@ body{
 .b1:hover{
     transform: rotate(60deg);
 
-    transition: 2s ease-in-out;
+    transition: 1s ;
     
 }
 .b2:hover{
     transform:scaleY(0.7) ;
-    transition: 2s;
+    
     
 }
 .b3:hover{
