@@ -1,0 +1,133 @@
+body{
+    background-color: rgb(238, 229, 247);
+}
+
+.part1{
+
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-left: 80px;
+    margin-top: 70px;
+
+}
+.box1{
+    background-color: rgb(246, 243, 243) ;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box2{
+    background-color: rgb(143, 141, 141);
+    width: 150px;
+    height: 150px;
+}
+.box3{
+    background-color: rgba(175, 109, 236, 0.654);
+    width: 150px;
+    height: 150px;
+}
+.b1:hover{
+    transform: rotate(60deg);
+
+    transition: 2s ease-in-out;
+    
+}
+.b2:hover{
+    transform:scaleY(0.7) ;
+    transition: 2s;
+    
+}
+.b3:hover{
+    transform: scaleX(0.7);
+    transition: 2s;
+}
+.b4:hover{
+    transform: scale(2,2);
+    transition: 2s;
+}
+.b5:hover{
+    transform: scaleX(2);
+    transition: 2s;
+}
+.b6:hover{
+    transform: scaleY(2);
+    transition: 2s;
+}
+.b7:hover{
+    transform: skew(45deg);
+    transition: 2s;
+}
+.b8:hover{
+    transform: skewY(45deg);
+    transition: 2s;
+}
+.b9:hover{
+    transform: translate(75px, 30px);
+    transition: 2s;
+}
+.b10:hover{
+    transform: translateX(75px);
+    transition: 2s;
+}
+.part2{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+.a1:hover{
+    transform: translateY(60px);
+    transition: 2s;
+}
+.a2:hover{
+    transform: skewY(45deg) scale(2,2) translateY(-35px) translateX(35px);
+    
+    transition: 2s;
+}
+.a4:hover{
+    transform: perspective(150px) rotateY(50deg);
+
+    transition: 2s;
+}
+.a3:hover{
+    transform: perspective(150px) rotateX(50deg);
+    transition: 2s;
+}
+.part3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+    margin-left: 70px;
+    
+}
+.c1:hover{
+    transform-origin: top right;
+    transform: rotate(40deg);
+    transition: 50ms;
+    transition-delay: 80ms;
+}
+.c2:hover{
+    transform-origin:bottom left ;
+    transform: rotate(30deg);
+    transition: 50ms;
+    transition-delay: 80ms;
+}
+.c3:hover{
+    transform-origin: bottom;
+    transform: perspective(550px) rotateX(40deg);
+    transition: 1s;
+}
+.c4:hover{
+    transform-origin: top;
+    transform: perspective(400px) rotateX(50deg);
+    transition: 100ms;
+}
