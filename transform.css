@@ -131,3 +131,48 @@ body{
     transform: perspective(400px) rotateX(50deg);
     transition: 100ms;
 }
+.c5:hover{
+transform-origin: left;
+    transform: perspective(600px) rotateY(50deg);
+    transition: 1s;
+}
+.c10:hover{
+    transform-origin: top left;
+    transform: scaleX(2) ;
+
+}
+.c9:hover{
+    transform-origin: top right;
+    transform: scaleX(2) ;
+
+
+}
+.c8:hover{
+    transform-origin:left bottom ;
+    transform: scale(2,2) ;
+
+
+}
+.c7:hover{
+    transform-origin:right top ;
+    transform: scale(2,2) ;
+
+
+}
+.c6:hover{
+    transform-origin: right;
+    transform: perspective(400px) rotateY(50deg);
+    transition: 100ms;
+}
+.c11:hover{
+    transform-origin: top ;
+    transform: scaleY(2) ;
+    
+
+}
+.c12:hover{
+    transform-origin: bottom ;
+    transform: scaleY(2) ;
+    
+
+}
